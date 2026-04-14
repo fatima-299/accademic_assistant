@@ -1,0 +1,27 @@
+# Core LLM & RAG framework
+langchain==0.3.25
+langchain-openai==0.3.16
+langchain-community==0.3.24
+langchain-text-splitters==0.3.8
+
+# OpenAI
+openai==1.78.0
+
+# Vector store
+faiss-cpu==1.10.0
+
+# Document loaders
+pypdf==5.4.0
+docx2txt==0.8
+
+# Web search
+tavily-python==0.5.0
+
+# Weather / HTTP
+requests==2.32.3
+
+# Interface
+streamlit==1.45.0
+
+# Environment
+python-dotenv==1.1.0
