@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment / secrets
+.env
+
+# FAISS index (regenerate with build_db.py)
+db/
+
+# To-do persistence file
+todo_list.json
+
+# macOS
+.DS_Store
+
+# VS Code / JetBrains
+.vscode/
+.idea/
