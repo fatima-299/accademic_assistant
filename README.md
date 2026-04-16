@@ -143,7 +143,7 @@ Sources used:
 |-------|-------------|---------|
 | 🧮 Calculatrice | Évaluateur AST sécurisé, fonctions scientifiques | `calculate sqrt(144) + log(100,10)` |
 | 🌤️ Météo | API Open-Meteo (gratuite, temps réel) | `weather in Paris` |
-| 🌐 Recherche web | DuckDuckGo, avec titre + URL + extrait | `ChatGPT updates` |
+| 🌐 Recherche web | Tavily, avec titre + URL + extrait | `ChatGPT updates` |
 | 📝 To-do list | Persistante (JSON), add/show/delete/clear | `add task: revise chapter 3` |
 
 ### Partie 3 — Intégration & Routage intelligent
@@ -167,8 +167,7 @@ Le routeur fonctionne en deux étapes :
 - **Mémoire conversationnelle** : `ConversationBufferWindowMemory` (LangChain, k=6 tours) — une instance pour le RAG, une pour le chat libre.
 - **Interface** : Streamlit avec chat interactif, bouton "Clear conversation", spinner de chargement.
 - **To-do persistante** : sauvegardée dans `todo_list.json` (survit aux redémarrages).
-- **Outil de recherche web** : DuckDuckGo intégré, avec titre, URL et extrait de chaque résultat.
-
+- **Outil de recherche web** :Tavily intégré, fournissant des résultats structurés avec titre, URL et résumé.
 ---
 
 ## 💬 Exemples d'utilisation
